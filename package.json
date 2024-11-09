@@ -1,6 +1,6 @@
 {
   "name": "snapp-ui",
-  "version": "0.0.12",
+  "version": "0.0.15",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
     "ember-addon"

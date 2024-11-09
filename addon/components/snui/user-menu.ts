@@ -4,7 +4,9 @@ import { action } from '@ember/object';
 
 export interface SnuiUserMenuSignature {
   // The arguments accepted by the component
-  Args: object;
+  Args: {
+    imgSrc: string;
+  };
   // Any blocks yielded by the component
   Blocks: {
     default: [];

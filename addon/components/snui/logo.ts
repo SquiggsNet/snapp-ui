@@ -1,11 +1,9 @@
 import Component from '@glimmer/component';
 
-export interface SnuiMobileMenuButtonSignature {
+export interface SnuiLogoSignature {
   // The arguments accepted by the component
   Args: {
     imgSrc: string;
-    alt: string;
-    toggleMobileMenu: () => void;
   };
   // Any blocks yielded by the component
   Blocks: {
@@ -15,4 +13,4 @@ export interface SnuiMobileMenuButtonSignature {
   Element: null;
 }
 
-export default class SnuiMobileMenuButtonComponent extends Component<SnuiMobileMenuButtonSignature> {}
+export default class SnuiLogoComponent extends Component<SnuiLogoSignature> {}
